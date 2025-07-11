@@ -20,5 +20,5 @@ jobs:
 
       - name: 🔎 Run lychee to check all HTML and markdown files
         run: |
-          lychee --verbose --no-progress --exclude-all-private --timeout 20s "**/*.html" "**/*.md"
+          lychee --verbose --no-progress --exclude-all-private --timeout 20 "**/*.html" "**/*.md"
 
